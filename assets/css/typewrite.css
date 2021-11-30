@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+}
+
+.container p span.TypeCursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.container p span.TypeCursor.typing {
+    animation: none;
+}
